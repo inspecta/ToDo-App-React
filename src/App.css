@@ -63,3 +63,9 @@ body {
   outline: none;
   border: none;
 }
+
+.textInput {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+}
