@@ -14,12 +14,11 @@ class TodoItem extends React.Component {
 
   handleUpdatedDone = (e) => {
     if (e.key === "Enter") {
-      this.setState({ editing: false })
+      this.setState({ editing: false });
     }
   }
 
   componentWillUnmount() {
-    console.log('Cleaning up!');
   }
 
   render() {
