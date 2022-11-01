@@ -31,6 +31,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment 
   - Use Github pages for free and secure deployment.
+  
+### Live Demo
+  - Checkout live demo [here](https://inspecta.github.io/ToDo-App-React/)
 
 
 ## Authors
