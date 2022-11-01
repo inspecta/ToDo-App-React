@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/inspecta/ToDo-App-React/static/css/main.fd2c7343.css",
+    "main.js": "/inspecta/ToDo-App-React/static/js/main.59927857.js",
+    "index.html": "/inspecta/ToDo-App-React/index.html",
+    "main.fd2c7343.css.map": "/inspecta/ToDo-App-React/static/css/main.fd2c7343.css.map",
+    "main.59927857.js.map": "/inspecta/ToDo-App-React/static/js/main.59927857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd2c7343.css",
+    "static/js/main.59927857.js"
+  ]
+}
