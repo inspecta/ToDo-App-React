@@ -13,7 +13,7 @@ class ToDoContainer extends React.Component {
   }
 
   componentDidMount() {
-    const temp = localStorage.getItem('todos');
+    const temp = localStorage.getItem('todos') || [];
     if (JSON.parse(temp).length) {
       this.setState({
         todos: JSON.parse(temp),
