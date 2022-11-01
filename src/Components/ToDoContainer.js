@@ -13,11 +13,10 @@ class ToDoContainer extends React.Component {
   }
 
   componentDidMount() {
-    const temp = localStorage.getItem('todos') || [];
-    const todoData = JSON.parse(temp);
-    if (todoData.length) {
+    const temp = JSON.parse(localStorage.getItem('todos')) || [];
+    if (temp.length) {
       this.setState({
-        todos: todoData,
+        todos: temp,
       });
     } else {
       fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')

@@ -32,7 +32,7 @@ class TodoItem extends React.Component {
       opacity: 0.4,
       textDecoration: 'line-through',
     };
-    // const { completed, id, title } = this.props.todo;
+
     const {
       handleChangeProps, deleteTodoProps, setUpdate, todo,
     } = this.props;
